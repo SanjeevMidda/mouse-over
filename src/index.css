@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  transition: all 1s;
+
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  gap: 20px;
+}
+
+.content {
+  width: 20vw;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0px 40px 40px 40px;
+}
+
+h3 {
+  background-color: rgba(0, 0, 0, 0.191);
+  padding: 20px;
+  position: absolute;
+  border-radius: 40px 40px 0px 0px;
+  text-align: center;
+}
